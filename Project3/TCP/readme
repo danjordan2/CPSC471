@@ -1,0 +1,39 @@
+Name: Daniel Jordan
+Titan server username: cs471t12
+Email: daniel_jordan@csu.fullerton.edu
+Language: C++
+
+
+
+
+=============== Client ======================================================= 
+dan@ubuntu:/school/CS/CPSC471/q3-cs471t12/TCP/client$ ./client 192.168.0.119 5000 testfile
+testfile Successfully uploaded
+
+dan@ubuntu:/media/Data/school/CS/CPSC471/q3-cs471t12/TCP/client$ ./client 192.168.0.119 5000 ApplicationLayerIII.pdf
+ApplicationLayerIII.pdf Successfully uploaded
+============================================================================
+
+
+=============== Server ======================================================= 
+dan@ubuntu:/school/CS/CPSC471/q3-cs471t12/tcp/server$ ./server 5000
+Port  = 5000
+
+Waiting for somebody to connect on port 5000
+Connected!
+
+File Name: testfile
+File Size: 469208 bytes
+Bytes written: 469208 bytes
+testfile successfully transfered
+
+Waiting for somebody to connect on port 5000
+Connected!
+
+File Name: ApplicationLayerIII.pdf
+File Size: 520208 bytes
+Bytes written: 520208 bytes
+ApplicationLayerIII.pdf successfully transfered
+
+Waiting for somebody to connect on port 5000
+============================================================================

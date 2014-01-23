@@ -1,0 +1,5 @@
+DIRECTORIES = client server
+.PHONY: all $(DIRECTORIES)
+all: $(DIRECTORIES)
+$(DIRECTORIES):
+	$(MAKE) -C $@
