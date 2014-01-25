@@ -1,10 +1,10 @@
-//=================================================
+//================================================
 // Name: Daniel Jordan
 // Email: daniel_jordan@csu.fullerton.edu
 // Date: 3/31/13
 // File: server.cpp
 // Assignment: TCP file transfer
-//=================================================
+//================================================
 #include <stdio.h>      /* Contains common I/O functions */
 #include <sys/types.h>  /* Contains definitions of data types used in system calls */
 #include <sys/socket.h> /* Includes definitions of structures needed for sockets */
